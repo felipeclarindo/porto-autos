@@ -1,0 +1,71 @@
+#cabecalho {
+    position: fixed;
+    height: 15%;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho .logo img{
+    width: 150px;
+    height: auto;
+}
+
+#cabecalho .menu {
+    min-height: 100%;
+}
+
+#cabecalho .menu .itens{
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#cabecalho .menu .itens .item {
+    text-transform: capitalize;
+    font-size: 14px;
+    height: 100%;
+    width: auto;
+    font-weight: 500;
+    flex-wrap: wrap;
+    color: white;
+    padding: 39px;
+    text-align: center;
+    transition: all .2s ease-in;
+}
+
+#cabecalho .menu .itens .item:hover {
+    padding-top: 30px;
+    border-bottom: 2px solid #0084FF;
+}
+
+#cabecalho .menu .itens .item.ativo {
+    font-weight: bold;
+    border-bottom: 2px solid #0084FF;
+}
+
+#cabecalho .botao {
+    border: none;
+    background-color: #0084FF;
+    height: 60px;
+    width: 15%;
+    border-radius: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer
+}
+
+#cabecalho .botao:hover {
+    opacity: 77%;
+}
+
+#cabecalho .botao p {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}

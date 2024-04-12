@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porto Autos</title>
+    <!-- Linkando favicon -->
     <link rel="shortcut icon" href="./src/imgs/favicon.co" type="image/x-icon">
+    <!-- Linkando Css -->
+    <link rel="stylesheet" href="./src/css/fonts.css">
+    <link rel="stylesheet" href="./src/css/base/reset.css">
+    <link rel="stylesheet" href="src/css/components/header.css">
+    <link rel="stylesheet" href="src/css/pages/index/style.css">
 </head>
 <body>
-    
+    <!-- Cabecalho -->
+    <header id="cabecalho">
+        <a class="logo" href="./index.html">
+            <img src="./src/imgs/cabecalho/logo.png" alt="Logo porto autos">
+        </a>
+        <nav class="menu">
+            <ul class="itens">
+                <li class="item ativo">
+                    <a href="./index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./pages/assistente.html">
+                        Assistente Virtual
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./pages/sobre-nos.html">
+                        Sobre Nós
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./pages/participantes.html">
+                        Participantes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <button class="botao" onclick="window.location.href='./pages/assistente.html'">
+            <p>Falar com nosso assistente</p>
+        </button>
+    </header>
 </body>
 </html>
