@@ -8,6 +8,7 @@
 }
 
 #cabecalho .logo img{
+    margin-bottom: 20px;
     width: 150px;
     height: auto;
 }
@@ -37,8 +38,15 @@
 }
 
 #cabecalho .menu .itens .item:hover {
-    padding-top: 30px;
-    border-bottom: 2px solid #0084FF;
+    padding-top: 35px;
+}
+
+#cabecalho .menu .itens .item:hover a{
+    color: #0084FF;
+}
+
+#cabecalho .menu .itens .item.ativo:hover {
+    padding-top: 39px;
 }
 
 #cabecalho .menu .itens .item.ativo {
@@ -50,11 +58,11 @@
     border: none;
     background-color: #0084FF;
     height: 60px;
-    width: 15%;
+    width: 10%;
     border-radius: 10px;
     padding: 10px;
     word-wrap: break-word;
-    margin-right: 10px;
+    margin: 0 20px 20px 0;
     text-align: center;
     transition: all 0.2s ease-in-out;
     cursor: pointer
