@@ -1,0 +1,42 @@
+
+#rodape {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 25% ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#rodape a, h4, p , .fa{
+    color: #fff
+}
+
+#rodape .links-rapidos .links{
+    margin-top: 5px;
+}
+
+#rodape .links-rapidos .links .link {
+    margin-top: 2px;
+}
+
+#rodape .links-rapidos .links .link i {
+    margin-right: 6px;
+}
+
+#rodape .sobre-nos .itens {
+    margin-top: 5px;
+}
+
+#rodape .sobre-nos .itens .item {
+    margin-top: 2px;
+}
+
+#rodape .sobre-nos .itens .item i{
+    margin-right: 6px;
+}
