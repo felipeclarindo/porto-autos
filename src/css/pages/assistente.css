@@ -1,4 +1,4 @@
-#bot{
-    background-image: linear-gradient(to bottom, #0084FF, #B6C2CD);
-    min-height: 100vh;
+section {
+  background-image: linear-gradient(to bottom, #0084ff, #b6c2cd);
+  min-height: 100vh;
 }
