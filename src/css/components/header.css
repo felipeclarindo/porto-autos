@@ -1,5 +1,5 @@
 #cabecalho {
-    height: 15vh;
+    height: 30%;
     min-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,14 +8,15 @@
 
 #cabecalho .logo {
     position: relative;
-    margin-top: 1.4%;
+    align-items: center;
     transition: .3s ease;
 }
 
 #cabecalho .logo img{
+    padding-left: 40px;
     position: relative;
     width: auto;
-    height: 180px;
+    height: 45px;
 }
 
 #cabecalho .logo:hover {
