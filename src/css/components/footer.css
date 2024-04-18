@@ -3,7 +3,7 @@
     background-color: black;
     color: #fff;
     width: 100%;
-    height: 32vh ;
+    height: 35vh ;
     bottom: 0;
     left: 0;
     display: flex;
@@ -19,7 +19,7 @@
     font-size: 14px;
     opacity: 50%;
     position: absolute;
-    bottom: 10px;
+    bottom: 12px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -84,7 +84,7 @@
 }
 
 #rodape .porto h4 {
-    margin: 4px 0;
+    margin: 10px 0;
 }
 
 #rodape .porto .apps {
@@ -92,12 +92,15 @@
 }
 
 #rodape .porto .apps .app {
-    width: 95px;
+    margin: 0 3px;
+    width: 85px;
     height: auto;
+    transition: .3s ease;
 }
 
 #rodape .porto .apps .app:hover {
     opacity: 50%;
+    transform: scale(1.06);
 }
 
 #rodape .acompanhe {
