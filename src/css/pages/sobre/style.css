@@ -1,13 +1,12 @@
 #principal {
-    min-height: calc(100vh - 15vh);
+    min-height: calc(100vh - 30%);
     width: 100%;
-    overflow-y: auto;
 }
 
 #principal .introducao {
     color: #fff;
     background-color: #0084FF;
-    height: 45vh;
+    max-height: 20%;
     width: 100%;
     display: flex;
     flex-direction: row;
