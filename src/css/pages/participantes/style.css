@@ -42,7 +42,7 @@
 
 .foto {
   border-radius: 50%;
-  width: 300px;
+  width: 250px;
   height: 250px;
   margin-bottom: 15px;
 }
@@ -68,18 +68,14 @@
 
 .logotipos {
   display: flex;
+  gap: 0 8px;
 }
 
-.instagram {
-  width: 72px;
-  margin-left: -11px;
-  margin-top: -5px;
+.logotipo {
+  width: 50px;
+  height: auto;
+  transition: all 0.4s ease;
 }
-
-.logotipos a > img {
-  transition: all 1s ease;
-}
-
-.logotipos a > img:hover {
-  border-bottom: #0084ff 2px solid;
+.logotipo:hover { 
+  transform: scale(1.2);
 }
