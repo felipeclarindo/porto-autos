@@ -1,0 +1,63 @@
+h1,
+h2,
+p {
+  font-family: "Inter", sans-serif;
+}
+#painel {
+  background-color: #0084ff;
+  color: #fff;
+  text-align: center;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titulo {
+  font-size: 38px;
+  font-weight: 800px;
+  width: 522px;
+  margin: 8px auto;
+}
+.subtitulo {
+  font-size: 18px;
+  font-weight: 600px;
+  width: 633px;
+  margin: 0 auto;
+}
+.botao {
+  color: #000;
+  width: 200px;
+  height: 55px;
+  border-radius: 10px;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.botao:hover {
+  width: 205px;
+  height: 60px;
+}
+#textos {
+  width: 1150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+}
+.t-titulo {
+  font-size: 30px;
+  color: #0084ff;
+  margin-top: 10px;
+}
+p {
+  font-size: 20px;
+  color: #072541;
+  margin-top: 15px;
+}
+span {
+  font-weight: bold;
+  color: #0084ff;
+}
