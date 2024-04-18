@@ -1,13 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Participantes - Porto Autos</title>
-    <!-- Linkando Favicon -->
+    <!-- Adicionando Favicon -->
     <link rel="shortcut icon" href="../src/imgs/favicon.co" type="image/x-icon">
-</head>
+    <!-- Linkando css -->
+    <link rel="stylesheet" href="../src/css/base/fonts.css">  <!-- fonte -->
+    <link rel="stylesheet" href="../src/css/base/reset.css"> <!-- reset -->
+    <link rel="stylesheet" href="../src/css/components/header.css"> <!-- cabeçalho -->
+    <link rel="stylesheet" href="../src/css/components/footer.css"> <!-- rodape -->
+    <link rel="stylesheet" href="../src/css/pages/participantes/style.css"> <!-- estilo da pagina -->
+    <link rel="stylesheet" href="../src/css/pages/participantes/responsive.css"> <!-- responsivo --> 
+    <!-- Linkando icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+
 <body>
-    
+    <!-- Cabeçalho -->
+    <header id="cabecalho">
+        <a class="logo" href="./index.html">
+            <img src="../src/imgs/cabecalho/logo.png" alt="Logo porto autos">
+        </a>
+        <nav class="menu">
+            <ul class="itens">
+                <li class="item">
+                    <a href="../index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./assistente.html">
+                        Assistente Virtual
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./sobre-nos.html">
+                        Sobre Nós
+                    </a>
+                </li>
+                <li class="item ativo">
+                    <a href="./participantes.html">
+                        Participantes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="botao" onclick="window.location.href='./pages/assistente.html'">
+            <p>Falar com nosso assistente</p>
+        </button>
+    </header>
+    <!-- Fim do cabeçalho -->
+    <!-- Rodape -->
+    <footer id="rodape">
+        <div class="copyright">
+            <p>© Copyright - 2024</p>
+        </div>
+        <div class="links-rapidos">
+            <h4>Links Rapidos</h4>
+            <ul class="links">
+                <li class="link">
+                    <a href="./assistente.html">
+                        <i class="fa fa-angle-right"></i> Mecanico Virtual
+                    </a>
+                </li>
+                <li class="link">
+                    <a href="./participantes.html">
+                        <i class="fa fa-angle-right"></i> Participantes
+                    </a>
+                </li>
+                <li class="link">
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=551130039303&amp;text=Oi,%20Porto%20Seguro%20!" target="_blank"> 
+                        <i class="fa fa-angle-right"></i> Whatsapp
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="sobre-nos">
+            <h4>Sobre nós</h4>
+            <ul class="itens">
+                <li class="item">
+                    <a href="./sobre-nos.html">
+                        <i class="fa fa-angle-right"></i> Quem somos?
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./sobre-nos.html">
+                        <i class="fa fa-angle-right"></i> Nossa Historia
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./sobre-nos.html">
+                        <i class="fa fa-angle-right"></i> Porto Seguro
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="porto">
+            <img class="logo" src="../src/imgs/rodape/logo-porto.png" alt="Logo porto seguro">
+            <h4>Baixe o App da Porto</h4>
+            <div class="apps">
+                <a href="https://apps.apple.com/br/app/porto-seguro-residencial-e/id1511026277" target="_blank">
+                    <img class="app" src="../src/imgs/rodape/apple-store.svg" alt="">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=br.com.portoseguro.experienciacliente.mundoporto"
+                    target="_blank">
+                    <img class="app" src="../src/imgs/rodape/google-store.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="acompanhe">
+            <h4>Acompanhe a Porto nas redes sociais</h4>
+            <ul class="redes">
+                <li class="rede">
+                    <a href="https://www.facebook.com/porto/?locale=pt_BR" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="rede">
+                    <a href="https://www.instagram.com/porto/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="rede">
+                    <a href="https://www.linkedin.com/company/porto/?originalSubdomain=br" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="rede">
+                    <a href="https://www.youtube.com/portoseguro" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </li>
+                <li class="rede">
+                    <a href="https://twitter.com/portoseguro" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Fim do rodape -->
 </body>
+
 </html>

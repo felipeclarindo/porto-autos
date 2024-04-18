@@ -1,6 +1,5 @@
 #cabecalho {
-    position: fixed;
-    height: 15%;
+    height: 15vh;
     min-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -51,18 +50,18 @@
 
 #cabecalho .menu .itens .item.ativo {
     font-weight: bold;
-    border-bottom: 2px solid #0084FF;
+    border-bottom: 3px solid #0084FF;
 }
 
 #cabecalho .botao {
     border: none;
     background-color: #0084FF;
-    height: 60px;
-    width: 10%;
+    height: auto;
+    width: 12%;
     border-radius: 10px;
     padding: 10px;
     word-wrap: break-word;
-    margin: 0 20px 20px 0;
+    margin: 5px 20px;
     text-align: center;
     transition: all 0.2s ease-in-out;
     cursor: pointer
