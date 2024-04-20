@@ -13,7 +13,7 @@
 }
 
 #cabecalho .logo img{
-    padding-left: 40px;
+    margin-left: 40px;
     position: relative;
     width: auto;
     height: 45px;
@@ -21,7 +21,6 @@
 
 #cabecalho .logo:hover {
     opacity: 60%;
-    transform: scale(1.1);
 }
 
 #cabecalho .menu {
@@ -32,7 +31,9 @@
     font-weight: 500;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 #cabecalho .menu .itens .item {
@@ -43,26 +44,28 @@
     font-weight: 500;
     flex-wrap: wrap;
     color: white;
-    padding: 39px;
+    padding: 35px;
     text-align: center;
-    transition: all .2s ease-in;
+    transition: all .3s ease;
 }
 
 #cabecalho .menu .itens .item:hover {
-    padding-top: 35px;
+    transform: scale(1.13);
 }
 
 #cabecalho .menu .itens .item:hover a{
     color: #0084FF;
 }
 
-#cabecalho .menu .itens .item.ativo:hover {
-    padding-top: 39px;
-}
 
 #cabecalho .menu .itens .item.ativo {
     font-weight: bold;
+    font-size: 15px;
     border-bottom: 3px solid #0084FF;
+}
+
+#cabecalho .menu .itens .item.ativo:hover {
+    transform: scale(1);
 }
 
 #cabecalho .botao {

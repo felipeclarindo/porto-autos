@@ -49,6 +49,16 @@
     margin-right: 6px;
 }
 
+#rodape .links-rapidos .links .link .botao {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: #fff; /* Mantém a cor de texto padrão */
+    font: inherit; /* Mantém a fonte e tamanho de texto padrão */
+    cursor: pointer;
+}
+
 #rodape .sobre-nos {
     margin-right: 30%;
 }
@@ -100,7 +110,6 @@
 
 #rodape .porto .apps .app:hover {
     opacity: 50%;
-    transform: scale(1.06);
 }
 
 #rodape .acompanhe {

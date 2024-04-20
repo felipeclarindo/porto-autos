@@ -40,7 +40,7 @@
 
 #principal .conteudo {
     padding: 50px 80px;
-    height: 850px;
+    height: 1180px;
 }
 
 #principal .conteudo h2 {
@@ -50,5 +50,6 @@
 }
 
 #principal .conteudo p {
-    margin: 10px 0;
+    margin: 20px 0;
+    font-size: 19px;
 }
