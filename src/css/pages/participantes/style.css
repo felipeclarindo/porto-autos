@@ -1,23 +1,28 @@
 .titulo {
   font-size: 40px;
   font-weight: 800;
-  padding-top: 75px;
+  padding-top: 3%;
 }
+
 .subtitulo {
   font-size: 22.5px;
   font-weight: bold;
 }
+
 .nomes {
-  font-size: 30px;
-}
-.rm {
   font-size: 25px;
+}
+
+.rm {
+  font-size: 20px;
+  color: #0084ff;
 }
 
 .nomes,
 .rm {
   font-weight: bold;
 }
+
 .titulo,
 .subtitulo,
 .nomes,
@@ -37,15 +42,17 @@
 }
 
 .foto {
-  border-radius: 50%;
-  max-width: 80%;
-  height: auto;
-  margin-bottom: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Formato circular */
+  margin: -5px 0 10px 0;
 }
 
+
 .participantes {
-  margin-top: 50px;
+  margin-top: 2%;
   display: flex;
+  justify-content: center;
 }
 
 .participante {
@@ -53,26 +60,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px 0;
+  gap: 5px;
   background-color: #fff;
-  width: 30%;
-  height: auto;
-  margin: 0 auto;
+  width: 20%;
+  height: 400px;
+  margin: 0 20px;
   border-radius: 50px;
-  padding: 30px 0;
+  padding: 0;
   flex-wrap: wrap;
 }
 
 .logotipos {
   display: flex;
-  gap: 0 5px;
+  gap: 10px;
 }
 
 .logotipo {
-  width: 50px;
+  width: 35px;
   height: auto;
   transition: all 0.4s ease;
 }
+
 .logotipo:hover { 
-  transform: scale(1.2);
+  opacity: 80%;
+  transform: scale(1.1);
 }
