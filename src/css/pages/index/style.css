@@ -1,0 +1,79 @@
+#principal h1,
+#principal h2,
+#principal p {
+    color: rgb(0, 0, 0);
+}
+
+#principal #painel {
+    background-color: #0084ff;
+    text-align: center;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#principal #painel h1,
+#principal #painel h2,
+#principal #painel hp {
+    color: #fff;
+}
+
+
+#principal #painel .titulo {
+    font-size: 38px;
+    font-weight: 800;
+    width: 525px;
+    margin: 1px auto 8px auto;
+}
+
+#principal #painel .subtitulo {
+    font-size: 18px;
+    font-weight: 600;
+    width: 633px;
+    margin: 0 auto;
+}
+
+#principal #painel .botao {
+    border: none;
+    color: #0084ff;
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    margin-top: 18px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+    letter-spacing: 0;
+}
+
+#principal #painel .botao:hover {
+    transform: scale(1.05);
+    opacity: 80%;
+}
+
+#principal #textos {
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+#principal #textos .t-titulo {
+    font-size: 30px;
+    color: #0084ff;
+    margin-top: 10px;
+}
+
+#principal #textos p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#principal #textos span {
+    font-weight: bold;
+    color: #0084ff;
+}
