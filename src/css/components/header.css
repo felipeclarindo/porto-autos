@@ -50,7 +50,7 @@
 }
 
 #cabecalho .menu .itens .item:hover {
-    transform: scale(1.13);
+    transform: scale(1.1);
 }
 
 #cabecalho .menu .itens .item:hover a{

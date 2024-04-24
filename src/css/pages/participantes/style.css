@@ -1,0 +1,119 @@
+.titulo {
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 2.5%;
+}
+
+.subtitulo {
+  font-size: 22.5px;
+  font-weight: bold;
+}
+
+.nomes {
+  font-size: 25px;
+}
+
+.rm {
+  font-size: 20px;
+  color: #0084ff;
+}
+
+.nomes,
+.rm {
+  font-weight: bold;
+}
+
+.titulo,
+.subtitulo,
+.nomes,
+.rm {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.titulo,
+.subtitulo {
+  color: #fff;
+}
+
+#principal {
+  min-height: 106vh;
+  background-image: linear-gradient(to bottom, #0084ff, #8ab2d7);
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Formato circular */
+  margin: -5px 0 10px 0;
+}
+
+
+.participantes {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.participante {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  width: 20%;
+  height: 400px;
+  margin: 0 20px;
+  border-radius: 50px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.logotipos {
+  display: flex;
+  gap: 10px;
+}
+
+.logotipo {
+  width: 35px;
+  height: auto;
+  transition: all 0.4s ease;
+}
+
+.logotipo:hover { 
+  opacity: 80%;
+  transform: scale(1.1);
+}
+
+.botao-repositorio {
+  display: block;
+  background-color: #0084ff;
+  border: none;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 11%;
+  height: 60px;
+  cursor: pointer;
+  transition: .8s ease;
+}
+
+.botao-repositorio a {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  transition: .8s ease;
+}
+
+.botao-repositorio a i {
+  color: white;
+}
+
+.botao-repositorio:hover {
+  opacity: 60%;
+  transform: scale(1.08);
+}
