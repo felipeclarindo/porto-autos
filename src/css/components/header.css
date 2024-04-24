@@ -50,7 +50,7 @@
 }
 
 #cabecalho .menu .itens .item:hover {
-    transform: scale(1.13);
+    transform: scale(1.1);
 }
 
 #cabecalho .menu .itens .item:hover a{
@@ -62,6 +62,7 @@
     font-weight: bold;
     font-size: 15px;
     border-bottom: 3px solid #0084FF;
+    margin-bottom: 2px;
 }
 
 #cabecalho .menu .itens .item.ativo:hover {
