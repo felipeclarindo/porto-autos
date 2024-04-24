@@ -1,7 +1,7 @@
 .titulo {
   font-size: 40px;
   font-weight: 800;
-  padding-top: 3%;
+  padding-top: 2.5%;
 }
 
 .subtitulo {
@@ -37,7 +37,7 @@
 }
 
 #principal {
-  min-height: 100vh;
+  min-height: 106vh;
   background-image: linear-gradient(to bottom, #0084ff, #8ab2d7);
 }
 
@@ -84,4 +84,36 @@
 .logotipo:hover { 
   opacity: 80%;
   transform: scale(1.1);
+}
+
+.botao-repositorio {
+  display: block;
+  background-color: #0084ff;
+  border: none;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 11%;
+  height: 60px;
+  cursor: pointer;
+  transition: .8s ease;
+}
+
+.botao-repositorio a {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  transition: .8s ease;
+}
+
+.botao-repositorio a i {
+  color: white;
+}
+
+.botao-repositorio:hover {
+  opacity: 60%;
+  transform: scale(1.08);
 }
