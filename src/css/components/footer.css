@@ -16,10 +16,10 @@
 }
 
 #rodape .copyright {
-    font-size: 14px;
+    font-size: 12px;
     opacity: 50%;
     position: absolute;
-    bottom: 12px;
+    bottom: 17px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
