@@ -25,12 +25,14 @@
     font-size: 38px;
     font-weight: 800;
     width: 525px;
+    max-width: 100%;
     margin: 1px auto 8px auto;
 }
 
 #principal #painel .subtitulo {
     font-size: 18px;
     font-weight: 600;
+    max-width: 100%;
     width: 633px;
     margin: 0 auto;
 }
@@ -55,17 +57,23 @@
 }
 
 #principal #textos {
-    width: 1150px;
+    max-width: 1150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 50px auto;
+    margin: 50px auto 60px auto;
 }
 
 #principal #textos .t-titulo {
     font-size: 30px;
     color: #0084ff;
-    margin-top: 10px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+}
+
+
+#principal #textos .t-titulo:nth-of-type(1) {
+    margin-top: 0px;
 }
 
 #principal #textos p {

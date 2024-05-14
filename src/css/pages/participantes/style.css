@@ -1,7 +1,11 @@
+#principal {
+  min-height: calc(100vh - 102px);
+  width: 100%;
+}
 .titulo {
   font-size: 40px;
   font-weight: 800;
-  padding-top: 2.5%;
+  padding-top: 5%;
 }
 
 .subtitulo {
@@ -37,7 +41,7 @@
 }
 
 #principal {
-  min-height: 106vh;
+  min-height: 805px;
   background-image: linear-gradient(to bottom, #0084ff, #8ab2d7);
 }
 
@@ -50,7 +54,7 @@
 
 
 .participantes {
-  margin-top: 2%;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
 }
@@ -91,7 +95,7 @@
   background-color: #0084ff;
   border: none;
   border-radius: 10px;
-  margin: 40px auto;
+  margin: 5% auto;
   width: 11%;
   height: 60px;
   cursor: pointer;
