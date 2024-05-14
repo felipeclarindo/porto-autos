@@ -1,9 +1,9 @@
 #rodape {
-    position: relative;
+    position: relative ;
     background-color: black;
     color: #fff;
     width: 100%;
-    height: 35vh ;
+    height: 225px ;
     bottom: 0;
     left: 0;
     display: flex;
@@ -60,6 +60,8 @@
 }
 
 #rodape .sobre-nos {
+    max-width: 27%;
+    width: 100%;
     margin-right: 30%;
 }
 
@@ -91,6 +93,7 @@
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    padding: 0 20px; 
 }
 
 #rodape .porto h4 {
@@ -114,6 +117,9 @@
 
 #rodape .acompanhe {
     margin-right: 8%;
+    max-width: 27%;
+    width: 100%;
+    
 }
 
 #rodape .acompanhe .redes {
