@@ -20,7 +20,15 @@ setTimeout(function() {
     document.head.appendChild(t);
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
+    const botaoMenu = document.querySelector(".menu-hamburguer");
+    const menu = document.querySelector(".menu")
+    botaoMenu.addEventListener("click", () => {
+        menu.classList.toggle("ativo")
+    })
+});
+
+document.addEventListener("DOMContentLoaded", () => {
     var botoes = document.querySelectorAll(".botao");
     botoes.forEach(function(botao) {
         botao.addEventListener("click", function() {
