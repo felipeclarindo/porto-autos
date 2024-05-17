@@ -35,7 +35,7 @@
 
 #principal .conteudo {
     padding: 50px 80px;
-    max0height: 1180px;
+    min-height: 1180px;
 }
 
 #principal .conteudo h2 {

@@ -1,7 +1,11 @@
+
 #principal {
-  min-height: calc(100vh - 102px);
+  background-image: linear-gradient(to bottom, #0084ff, #8ab2d7);
+  min-height:  calc(100vh - 102px);
+  height: 764px;
   width: 100%;
 }
+
 .titulo {
   font-size: 40px;
   font-weight: 800;
@@ -40,18 +44,12 @@
   color: #fff;
 }
 
-#principal {
-  min-height: 805px;
-  background-image: linear-gradient(to bottom, #0084ff, #8ab2d7);
-}
-
 .foto {
   width: 200px;
   height: 200px;
   border-radius: 50%; /* Formato circular */
   margin: -5px 0 10px 0;
 }
-
 
 .participantes {
   margin-top: 5%;
@@ -66,11 +64,11 @@
   align-items: center;
   gap: 5px;
   background-color: #fff;
-  width: 20%;
+  max-width: 100%;
   height: 400px;
   margin: 0 20px;
   border-radius: 50px;
-  padding: 0;
+  padding: 20px;
   flex-wrap: wrap;
 }
 
@@ -90,19 +88,19 @@
   transform: scale(1.1);
 }
 
-.botao-repositorio {
+.btn-repositorio {
   display: block;
+  margin: 2% auto;
   background-color: #0084ff;
   border: none;
   border-radius: 10px;
-  margin: 5% auto;
-  width: 11%;
+  width: 160px;
   height: 60px;
   cursor: pointer;
   transition: .8s ease;
 }
 
-.botao-repositorio a {
+.btn-repositorio a {
   gap: 5px;
   display: flex;
   justify-content: center;
@@ -113,11 +111,11 @@
   transition: .8s ease;
 }
 
-.botao-repositorio a i {
+.btn-repositorio a i {
   color: white;
 }
 
-.botao-repositorio:hover {
+.btn-repositorio:hover {
   opacity: 60%;
   transform: scale(1.08);
 }
