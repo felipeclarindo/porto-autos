@@ -67,7 +67,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 50px auto 60px auto;
+    margin: 5% auto;
 }
 
 #principal #textos .t-titulo {
