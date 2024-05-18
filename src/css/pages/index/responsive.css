@@ -104,10 +104,19 @@
 
 
 @media(max-width: 600px) {
+    
+
+    #principal #painel {
+        padding-inline: 30px;
+    }
 
     #principal #painel .titulo {
         font-size: 25px;
         width: 100%;
+    }
+        
+    #principal #textos {
+        margin: 10% auto;
     }
 
     #rodape {
@@ -119,15 +128,54 @@
     }
 
     #rodape .acompanhe {
-        top: 65%;
+        top: 70%;
     }
 }
 
 @media(max-width: 390px) {
-    #cabecalho {
-        max-width: 100vw;
-        width: 100%;
+
+    #principal #painel {
+        height: 420px;
+        gap: 10px;
+        padding: 20px;
     }
 
+    #principal #painel .titulo {
+        font-size: 23px;
+    }
 
+    
+    #principal #textos {
+        margin: 15% auto;
+    }
+
+    #rodape {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        min-height: 640px;
+        gap: 30px;
+    }
+
+    #rodape h4 {
+        text-align: center;
+    }
+
+    #rodape .links-rapidos {
+        margin-inline: auto;
+        display: block;
+    }
+
+    #rodape .sobre-nos {
+        margin-inline: auto;
+        display: block;
+    }
+
+    #rodape .porto {
+        top: 45%;
+    }
+
+    #rodape .acompanhe {
+        top: 74%;
+    }
 }
