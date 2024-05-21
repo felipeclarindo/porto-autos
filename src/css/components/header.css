@@ -1,5 +1,5 @@
 #cabecalho {
-    height: 30%;
+    height: 102px;
     min-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,24 @@
 
 #cabecalho .logo:hover {
     opacity: 60%;
+}
+
+#cabecalho .menu-hamburguer {
+    display: none;
+    border: none;
+    background-color: none;
+    border-top: 3px solid #000;
+    cursor: pointer;
+}
+
+#cabecalho .menu-hamburguer::before,
+#cabecalho .menu-hamburguer::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #000;
+    margin-top: 5px;
 }
 
 #cabecalho .menu {
@@ -50,7 +68,7 @@
 }
 
 #cabecalho .menu .itens .item:hover {
-    transform: scale(1.13);
+    transform: scale(1.1);
 }
 
 #cabecalho .menu .itens .item:hover a{
@@ -72,8 +90,8 @@
 #cabecalho .botao {
     border: none;
     background-color: #0084FF;
-    height: auto;
-    width: 12%;
+    min-height: 60px;
+    min-width: 160px;
     border-radius: 10px;
     padding: 10px;
     word-wrap: break-word;
