@@ -1,8 +1,8 @@
 #principal {
   background-image: linear-gradient(to bottom, #0084ff, #8ab2d7);
-  min-height:  81vh;
+  min-height: 81vh;
   width: 100%;
-  padding: 70px 10%;;
+  padding: 70px 10%;
 }
 
 #principal .titulo {
@@ -81,7 +81,7 @@
   transition: all 0.4s ease;
 }
 
-.logotipo:hover { 
+.logotipo:hover {
   opacity: 80%;
   transform: scale(1.1);
 }
@@ -95,10 +95,10 @@
   width: 160px;
   height: 60px;
   cursor: pointer;
-  transition: .8s ease;
+  transition: 0.8s ease;
 }
 
-.btn-repositorio a {
+.btn-repositorio {
   gap: 5px;
   display: flex;
   justify-content: center;
@@ -106,10 +106,10 @@
   font-size: 15px;
   font-weight: bold;
   color: #fff;
-  transition: .8s ease;
+  transition: 0.8s ease;
 }
 
-.btn-repositorio a i {
+.btn-repositorio i {
   color: white;
 }
 

@@ -1,4 +1,4 @@
-# Porto Autos 
+# Porto Autos
 
 Este é um projeto de website para a Porto Seguro, uma oficina automotiva fictícia visando a resolução do projeto apresentado no nosso challenge. O site foi desenvolvido utilizando HTML, CSS e JavaScript, com o objetivo de apresentar os serviços oferecidos pela oficina, incluindo um Assistente Virtual
 
@@ -15,28 +15,25 @@ O site apresenta um design semelhante ao da porto seguro, e fizemos a implementa
 ## Estrutura do Projeto
 
 - **src/:** Contém os arquivos de recursos, como imagens, estilos CSS e scripts JavaScript.
-    - **imgs/:** Pasta contendo imagens utilizadas no site.
-    - **css/:** Pasta contendo os arquivos CSS.
-        - **base/:** Arquivos CSS base, como reset e definição de fontes.
-        - **components/:** Estilos específicos para componentes do site, como cabeçalho e rodapé.
-        - **pages/:** Estilos específicos para páginas individuais do site.
-    - **js/:** Arquivos JavaScript.
-    - **pages/:** Pasta contendo outras páginas do site, como "Sobre Nós" e "Participantes".
-**index.html:** Página inicial do site.
+- **imgs/:** Pasta contendo imagens utilizadas no site.
+- **css/:** Pasta contendo os arquivos CSS.
+- **base/:** Arquivos CSS base, como reset e definição de fontes.
+- **components/:** Estilos específicos para componentes do site, como cabeçalho e rodapé.
+- **pages/:** Estilos específicos para páginas individuais do site.
+- **js/:** Arquivos JavaScript.
+- **pages/:** Pasta contendo outras páginas do site, como "Sobre Nós" e "Participantes".
+  **index.html:** Página inicial do site.
 
 ## Repositorio
+
 - [Link do Repositorio](https://github.com/felipeclarindo/porto-autos)
 
-## Figma
-###
-- **Conta:** rm555059@fiap.com.br
-- **Senha:** entraaiprofessor
+## Colaboradores
 
-## Participantes 
+- [felipeclarindo](https://github.com/felipeclarindo)
+- [victoraugustogfavaro](https://github.com/victoraugustogfavaro)
+- [victoraugustogfavaro](https://github.com/HiraTK)
 
-- **Felipe Clarindo**
-    - **RM:** 554547
-- **Victor Gigante**
-    - **RM:** 555059
-- **Gustavo Hiratsuka**
-    - **RM:** 557631
+## Contribuições
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.

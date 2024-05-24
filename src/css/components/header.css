@@ -1,113 +1,112 @@
 #cabecalho {
-    height: 102px;
-    min-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 102px;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #cabecalho .logo {
-    position: relative;
-    align-items: center;
-    transition: .3s ease;
+  position: relative;
+  align-items: center;
+  transition: 0.3s ease;
 }
 
-#cabecalho .logo img{
-    margin-left: 40px;
-    position: relative;
-    width: auto;
-    height: 45px;
+#cabecalho .logo img {
+  margin-left: 40px;
+  position: relative;
+  width: auto;
+  height: 45px;
 }
 
 #cabecalho .logo:hover {
-    opacity: 60%;
+  opacity: 60%;
 }
 
 #cabecalho .menu-hamburguer {
-    display: none;
-    border: none;
-    background-color: none;
-    border-top: 3px solid #000;
-    cursor: pointer;
+  display: none;
+  border: none;
+  background: none;
+  border-top: 3px solid #000;
+  cursor: pointer;
 }
 
 #cabecalho .menu-hamburguer::before,
 #cabecalho .menu-hamburguer::after {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background: #000;
-    margin-top: 5px;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #000;
+  margin-top: 5px;
 }
 
 #cabecalho .menu {
-    min-height: 100%;
+  min-height: 100%;
 }
 
-#cabecalho .menu .itens{
-    font-weight: 500;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+#cabecalho .menu .itens {
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 #cabecalho .menu .itens .item {
-    text-transform: capitalize;
-    font-size: 14px;
-    height: 100%;
-    width: auto;
-    font-weight: 500;
-    flex-wrap: wrap;
-    color: white;
-    padding: 35px;
-    text-align: center;
-    transition: all .3s ease;
+  text-transform: capitalize;
+  font-size: 14px;
+  height: 100%;
+  width: auto;
+  font-weight: 500;
+  flex-wrap: wrap;
+  color: white;
+  padding: 35px;
+  text-align: center;
+  transition: all 0.3s ease;
 }
 
 #cabecalho .menu .itens .item:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-#cabecalho .menu .itens .item:hover a{
-    color: #0084FF;
+#cabecalho .menu .itens .item:hover a {
+  color: #0084ff;
 }
-
 
 #cabecalho .menu .itens .item.ativo {
-    font-weight: bold;
-    font-size: 15px;
-    border-bottom: 3px solid #0084FF;
-    margin-bottom: 2px;
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 3px solid #0084ff;
+  margin-bottom: 2px;
 }
 
 #cabecalho .menu .itens .item.ativo:hover {
-    transform: scale(1);
+  transform: scale(1);
 }
 
 #cabecalho .botao {
-    border: none;
-    background-color: #0084FF;
-    min-height: 60px;
-    min-width: 160px;
-    border-radius: 10px;
-    padding: 10px;
-    word-wrap: break-word;
-    margin: 5px 40px 5px 0;
-    text-align: center;
-    transition: .3s ease;
-    cursor: pointer
+  border: none;
+  background-color: #0084ff;
+  min-height: 60px;
+  min-width: 160px;
+  border-radius: 10px;
+  padding: 10px;
+  word-wrap: break-word;
+  margin: 5px 40px 5px 0;
+  text-align: center;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 
 #cabecalho .botao:hover {
-    opacity: 60%;
-    transform: scale(1.02);
+  opacity: 60%;
+  transform: scale(1.02);
 }
 
-#cabecalho .botao p {
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
+#cabecalho .botao {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
 }

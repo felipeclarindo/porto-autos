@@ -1,148 +1,150 @@
 #rodape {
-    position: relative ;
-    background-color: black;
-    color: #fff;
-    width: 100%;
-    min-height: 225px ;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
+  position: relative;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  min-height: 225px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
 }
 
-#rodape a, #rodape h4, #rodape .fa, #rodape p {
-    color: #fff;
+#rodape a,
+#rodape h4,
+#rodape .fa,
+#rodape p {
+  color: #fff;
 }
 
 #rodape .copyright {
-    font-size: 12px;
-    opacity: 50%;
-    position: absolute;
-    bottom: 17px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    width: 100%;
+  font-size: 12px;
+  opacity: 50%;
+  position: absolute;
+  bottom: 17px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
 }
 
 #rodape .links-rapidos {
-    max-width: 150px;
-    width: 100%;
-    margin-left: 2%;
+  max-width: 150px;
+  width: 100%;
+  margin-left: 2%;
 }
 
-#rodape .links-rapidos .links{
-    margin-top: 6px;
+#rodape .links-rapidos .links {
+  margin-top: 6px;
 }
 
 #rodape .links-rapidos .links .link {
-    font-size: 15px;
-    margin-top: 4px;
-    transition: .3s ease;
+  font-size: 15px;
+  margin-top: 4px;
+  transition: 0.3s ease;
 }
 
 #rodape .links-rapidos .links .link:hover {
-    opacity: 50%;
-    transform: scale(1.1);
+  opacity: 50%;
+  transform: scale(1.1);
 }
 
 #rodape .links-rapidos .links .link i {
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
 #rodape .links-rapidos .links .link .botao {
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    color: #fff; /* Mantém a cor de texto padrão */
-    font: inherit; /* Mantém a fonte e tamanho de texto padrão */
-    cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: #fff; /* Mantém a cor de texto padrão */
+  font: inherit; /* Mantém a fonte e tamanho de texto padrão */
+  cursor: pointer;
 }
 
 #rodape .sobre-nos {
-    max-width: 150px;
-    width: 100%;
-    height: auto;
-    margin-right: 35%;
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  margin-right: 35%;
 }
 
 #rodape .sobre-nos .itens {
-    margin-top: 6px;
+  margin-top: 6px;
 }
 
 #rodape .sobre-nos .itens .item {
-    font-size: 15px;
-    margin-top: 4px;
-    transition: .3s ease;
+  font-size: 15px;
+  margin-top: 4px;
+  transition: 0.3s ease;
 }
 
 #rodape .sobre-nos .itens .item:hover {
-    opacity: 50%;
-    transform: scale(1.1);
+  opacity: 50%;
+  transform: scale(1.1);
 }
 
-#rodape .sobre-nos .itens .item i{
-    margin-right: 6px;
+#rodape .sobre-nos .itens .item i {
+  margin-right: 6px;
 }
 
 #rodape .porto {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    padding: 0 20px; 
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 0 20px;
 }
 
 #rodape .porto h4 {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 #rodape .porto .apps {
-    padding-top: 4px;
+  padding-top: 4px;
 }
 
 #rodape .porto .apps .app {
-    margin: 0 3px;
-    width: 85px;
-    height: auto;
-    transition: .3s ease;
+  margin: 0 3px;
+  width: 85px;
+  height: auto;
+  transition: 0.3s ease;
 }
 
 #rodape .porto .apps .app:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 #rodape .acompanhe {
-    margin-right: 8%;
-    min-width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  margin-right: 8%;
+  min-width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #rodape .acompanhe .redes {
-    gap: 28px;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  gap: 28px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#rodape .acompanhe .redes .rede {   
-    font-size: 24px;
-    width: 20px;
-    height: auto;
-    transition: .3s ease;
+#rodape .acompanhe .redes .rede {
+  font-size: 24px;
+  width: 20px;
+  height: auto;
+  transition: 0.3s ease;
 }
 
 #rodape .acompanhe .redes .rede:hover {
-    opacity: 60%;
-    transform: scale(1.2);
+  opacity: 60%;
+  transform: scale(1.2);
 }
