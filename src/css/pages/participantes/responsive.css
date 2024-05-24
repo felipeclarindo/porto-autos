@@ -82,12 +82,12 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.797);
     min-height: 200px;
-
-    a {
-      color: white;
-    }
   }
 
+  #cabecalho .menu.ativo a {
+    color: white;
+  }
+  
   #cabecalho .menu-hamburguer {
     display: block;
     z-index: 1;
