@@ -98,7 +98,7 @@
   transition: 0.8s ease;
 }
 
-.btn-repositorio a {
+.btn-repositorio {
   gap: 5px;
   display: flex;
   justify-content: center;
@@ -109,7 +109,7 @@
   transition: 0.8s ease;
 }
 
-.btn-repositorio a i {
+.btn-repositorio i {
   color: white;
 }
 
