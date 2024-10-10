@@ -30,9 +30,9 @@ O site apresenta um design semelhante ao da porto seguro, e fizemos a implementa
 
 ## Colaboradores
 
-- [felipeclarindo](https://github.com/felipeclarindo)
-- [victoraugustogfavaro](https://github.com/victoraugustogfavaro)
-- [victoraugustogfavaro](https://github.com/HiraTK)
+- [Felipe Clarindo](https://github.com/felipeclarindo)
+- [Victor Augusto](https://github.com/victoraugustogfavaro)
+- [Gustavo Hiratsuka](https://github.com/HiraTK)
 
 ## Contribuições
 
